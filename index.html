@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food of Sumbawa</title>
+
+    <!-- link swiper css untuk meng konekkan ke swiper autoplay -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+<header>
+
+    <a href="./home.html" class="logo"><i class="fas fa-utensils"></i>FooS.</a>
+
+    <nav class="navbar">
+        <a class="active" href="./index.html">home</a>
+        <a href="./menu.html">menu</a>
+        <a href="#">about</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <!-- <i class="fas fa-search" id="search-icon"></i> -->
+        <!-- <i class="fas fa-user" id="login-btn"></i> -->
+    </div>
+
+    <!-- <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form> -->
+
+</header>
+<!-- header section ends-->
+
+
+
+<!-- search form icon  -->
+<form action="" id="search-form">
+    <input type="search" placeholder="cari disini..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+
+    <!-- menambah icone close di form search in top right-->
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+
+
+<!-- home section starts  -->
+<section class="home" id="home">
+
+    <!-- take class swiper-container from swiper demo autoplay -->
+    <div class="swiper-container home-slider">
+
+        <!-- take class swiper-wrapper from swiper demo autoplay -->
+        <div class="swiper-wrapper wrapper">
+
+            <!-- take class swiper-slide from swiper demo autoplay-->
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>menu spesial</span>
+                    <h3>singang</h3>
+                    <p>Masakan ini diwariskan turun temurun dalam keluarga di daerah Sumbawa, NTB</p>
+                    <a href="./order.html" class="btn">pesan sekarang</a>
+                </div>
+                <div class="image">
+                    <img src="./assets/img/singang.png" alt="">
+                </div>
+            </div>
+
+            <!-- take class swiper-slide from swiper demo autoplay-->
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>menu spesial</span>
+                    <h3>sepat</h3>
+                    <p>Masakan ini diwariskan turun temurun dalam keluarga di daerah Sumbawa, NTB</p>
+                    <a href="./order.html" class="btn">pesan sekarang</a>
+                </div>
+                <div class="image">
+                    <img src="./assets/img/sepat.png" alt="">
+                </div>
+            </div>
+
+            <!-- take class swiper-slide from swiper demo autoplay-->
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>menu spesial</span>
+                    <h3>ayam bakar taliwang</h3>
+                    <p>Masakan ini diwariskan turun temurun dalam keluarga di daerah Sumbawa, NTB</p>
+                    <a href="./order.html" class="btn">pesan sekarang</a>
+                </div>
+                <div class="image">
+                    <img src="./assets/img/ayam bakar taliwang.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- for button next and previosly -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- take class swiper-pagination from swiper demo autoplay-->
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+<!-- home section ends -->
+
+
+
+
+
+
+
+
+<!-- about section starts  -->
+<section class="about" id="about">
+
+    <!-- <h3 class="sub-heading"> about us </h3> -->
+    <h1 class="heading-about"> kenapa pilih <span> FooS. </span> ? </h1>
+
+    <div class="row">
+
+        <div class="content">
+            <h3>tempat makanan enak di Sumbawa</h3>
+            <p>tempat makanan enak di sumbawa iohcnilskaj;kiswjqadn;xkwjandxk;jmsaw;dolxkjs;oldxkj</p>
+            <p>tempatnya juga bagus dan aesthetic banget cocok untuk anak muda zaman sekarang</p>
+            <a href="https://www.idntimes.com/food/dining-guide/untsi-khairi-1/makanan-khas-sumbawa-paling-enak" class="btn">lebih banyak</a>
+        </div>
+
+    </div>
+
+</section>
+<!-- about section ends -->
+
+
+<!-- review section starts  -->
+<section class="review" id="review">
+
+    <h3 class="sub-heading"> customer's review </h3>
+    <h1 class="heading"> apa yang mereka katakan? </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./assets/img/Astuti.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Astuti</h3>
+                    </div>
+                </div>
+                <p>bagus enak</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./assets/img/Dewita.jpg" alt="">
+                    <div class="user-info">
+                        <h3>dewita</h3>
+                    </div>
+                </div>
+                <p>nyaman tempatnya juga bagus</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./assets/img/zulkifli.JPG" alt="">
+                    <div class="user-info">
+                        <h3>Zulkifli</h3>
+                    </div>
+                </div>
+                <p>no coment</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./assets/img/egit.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Egit</h3>
+                    </div>
+                </div>
+                <p>sangat enak</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./assets/img/jihan.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Jihan</h3>
+                    </div>
+                </div>
+                <p>yummy</p>
+            </div>
+
+
+        </div>
+
+    </div>
+    
+</section>
+<!-- review section ends -->
+
+
+<!-- footer section starts  -->
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">Sumbawa</a>
+            <a href="#">taliwang</a>
+            <a href="#">mataram</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">menu</a>
+            <a href="#">order</a>
+            <a href="#">reivew</a>
+            <a href="#">about</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">082339456907</a>
+            <a href="#">kiflyfcb7@gmail.com</a>
+            <a href="#">Sumbawa, Indonesia - 14037</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <div class="credit"> copyright @ 2022 by <span class="fas fa-utensils"></span> FooS. </div>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- link swiper js untuk meng konekkan ke swiper autoplay -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="./assets/js/style.js"></script>
+
+</body>
+</html>

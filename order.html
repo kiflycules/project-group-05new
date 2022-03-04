@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food of Sumbawa</title>
+
+    <!-- link swiper css untuk meng konekkan ke swiper autoplay -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts      -->
+<header>
+
+    <a href="./home.html" class="logo"><i class="fas fa-utensils"></i>FooS.</a>
+
+    <nav class="navbar">
+        <a href="./index.html">home</a>
+        <a href="./menu.html">menu</a>
+        <a href="#">about</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <!-- <i class="fas fa-search" id="search-icon"></i>
+        <i class="fas fa-user" id="login-btn"></i> -->
+    </div>
+
+    <!-- <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form> -->
+
+</header>
+<!-- header section ends-->
+
+
+
+<!-- search form icon  -->
+<form action="" id="search-form">
+    <input type="search" placeholder="cari disini..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+
+    <!-- menambah icone close di form search in top right-->
+    <i class="fas fa-times" id="close"></i>
+</form>
+    
+
+
+<!-- order section starts  -->
+<section class="order" id="order">
+
+    <h3 class="sub-heading"> order sekarang </h3>
+    <h1 class="heading"> pesan ditempat atau antar ? </h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>nama</span>
+                <input type="text" placeholder="input nama">
+            </div>
+            <div class="input">
+                <span>nomor telepon</span>
+                <input type="number" placeholder="masukkan nomor telepon">
+            </div>
+        </div>
+        <!-- <div class="inputBox"> -->
+            <!-- <div class="input">
+                <span>pesananmu</span>
+                <input type="text" placeholder="masukkan pesanan">
+            </div>
+            <div class="input">
+                <span>jumlah pesanan</span>
+                <input type="number" placeholder="jumlah pesanan">
+            </div> -->
+           
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Alamat</span>
+                <input type="string" placeholder="masukkan alamat">
+            </div>
+            <div class="input">
+                <span>tanggal dan waktu</span>
+                <!-- date default -->
+                <input type="datetime-local">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Pesanan Anda</span>
+                <!-- berisi foto dan jumlah pesanan -->
+                <div class="image">
+                    <img src="./assets/img/ayam bakar taliwang.png" alt="">
+                    <span class="price">Rp13.500</span>
+                </div>
+            </div>
+            <div class="input">
+                <span>total pesanan</span>
+                <!-- <textarea name="" placeholder="Tinggalkan Pesan" id="" cols="30" rows="10"></textarea> -->
+                <input type="text" placeholder="total pesanan">
+            </div>
+        </div>
+
+        <a href="./pageafterorder.html" class="btn">pesan</a>
+    </form>
+
+</section>
+<!-- order section ends -->
+
+<!-- footer section starts  -->
+<section class="footer">
+
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>tempat makanan enak di sumbawa iohcnilskaj; kiswjqad n;xkwjan dxk;jmsaw; dolxkjs;oldxkj</p>
+            <p>tempatnya juga bagus dan aesthetic banget cocok untuk anak muda zaman sekarang</p>
+        </div>
+
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">Sumbawa</a>
+            <a href="#">taliwang</a>
+            <a href="#">mataram</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">menu</a>
+            <a href="#">order</a>
+            <a href="#">reivew</a>
+            <a href="#">about</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">082339456907</a>
+            <a href="#">kiflyfcb7@gmail.com</a>
+            <a href="#">Sumbawa, Indonesia - 14037</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <div class="credit"> copyright @ 2022 by <span class="fas fa-utensils"></span>FooS. </div>
+
+</section>
+<!-- footer section ends -->
+
+
+
+<!-- link swiper js untuk meng konekkan ke swiper autoplay -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="./assets/js/style.js"></script>
+
+
+</body>
+</html>
